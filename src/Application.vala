@@ -6,6 +6,7 @@ popover,
 popover.osd,
 .popover,
 .popover.osd {
+    background-clip: padding-box;
     border-radius: 4px;
     border: 2px solid alpha (#00f, 0.3);
     background-color: #fff; /* gives inconsistent border */
